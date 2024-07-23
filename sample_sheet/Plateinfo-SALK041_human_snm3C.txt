@@ -1,0 +1,27 @@
+[CriticalInfo]
+n_random_index=384
+input_plate_size=384
+pool_id=SALK041
+tube_label=SALK041
+email=
+
+[LibraryInfo]
+
+[PlateInfo]
+Method	plate_id	multiplex_group	primer_name
+snm3C	UWA7648_CX35_Pro_2_P1	1	I5
+snm3C	UWA7648_CX35_Pro_2_P2	1	P13
+snm3C	UWA7648_CX35_Pro_2_P3	1	F3
+snm3C	UWA7648_CX35_Pro_2_P4	1	E6
+snm3C	UWA7648_CX35_Pro_2_P5	1	G17
+snm3C	UWA7648_CX35_Pro_2_P6	1	A22
+snm3C	UWA7648_CX35_Pro_2_P7	1	B19
+snm3C	UWA7648_CX35_Pro_2_P8	1	A7
+snm3C	UWA7648_CX35_Pro_2_P9	1	G9
+snm3C	UWA7648_CX35_Pro_2_P10	1	I17
+snm3C	UWA7648_CX35_Pro_2_P11	1	E9
+snm3C	UWA7648_CX35_Pro_2_P12	1	N8
+snm3C	UWA7648_CX35_Pro_2_P13	1	J24
+snm3C	UWA7648_CX35_Pro_2_P14	1	P6
+snm3C	UWA7648_CX35_Pro_2_P15	1	O4
+snm3C	UWA7648_CX35_Pro_2_P16	1	J18

@@ -1,0 +1,108 @@
+def complementOf(base):
+
+    # input: a single character string
+    # one of the bases:'A','T','G', or 'C'
+
+    # returns: a single character string
+    # the complementary base
+
+    pair = {'A':'T', 'T': 'A', 'G': 'C', 'C': 'G'}
+
+    return pair[base]
+
+def laser(base):
+
+    # input: a single character string
+    # one of the bases:'A','T','G', or 'C'
+
+    # returns: a single character string
+    # the laser color of that base
+
+    baseToLaser = {'A': 'R', 'T': 'G', 'G': 'G', 'C': 'R'}
+
+    return baseToLaser[base]
+
+def reverse(text):
+
+    # input: a string of bases
+
+    # returns: a string of bases in reverse order
+
+    rev_text = ''
+
+    for i in range(len(text) - 1, -1, -1):
+
+        rev_text += text[i]
+
+    return rev_text
+
+def ReverseComplement(Pattern):
+
+    # input: a string
+    # a sequence of A's, T's, G's and C's
+
+    # returns: a string
+    # the reverse complement sequence
+
+    reverse_complement = ''
+
+    for base in reverse(Pattern):
+
+    #for base in Pattern[::2]:
+
+    #for base in reversed(Pattern):
+
+        reverse_complement += complementOf(base)
+
+    return reverse_complement
+
+def LaserColors(Pattern):
+
+    # input: a string
+    # a sequence of A's, T's, G's and C's
+
+    # returns: a string
+    # the laser color of each base
+
+    colors = ''
+
+    for base in Pattern:
+
+        colors += laser(base)
+
+    return colors
+
+########################################
+
+#PATTERN = "AGTCGCATAGT"
+
+#print(PATTERN)
+
+#print(rc(PATTERN))
+
+
+
+### DO NOT MODIFY THE CODE BELOW THIS LINE ###
+#import sys
+#print(ReverseComplement(sys.stdin.read().strip()))
+
+#with open('in') as f:
+#    lines = f.read().splitlines()
+
+#rc_lines = []
+
+#for seq in lines:
+
+#    rc_lines.append(ReverseComplement(seq))
+
+#for seq in rc_lines:
+
+#    print seq
+
+#seqs = ["ATGATCAAG", "CTTGATCAT", "TCTTGATCA" ,"CTCTTGATC"]
+
+#for seq in seqs:
+
+#    print(seq)
+
+#    print(ReverseComplement(seq))

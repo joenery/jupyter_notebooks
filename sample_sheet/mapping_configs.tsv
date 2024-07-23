@@ -1,0 +1,15 @@
+Organism	Modality	Config				
+arabidopsis	snm3C	/gale/netapp/home/trlee/yap/bowtie2_genome/snm3C.TAIR10.mapping_config.ini				
+arabidopsis	snm3C	/gale/raidix/rdx-7/tnobori/tools/YAP/reference_files/mappingconfig_arabidopsis_v2-single.ini				
+arabidopsis	snmCT	/gale/raidix/rdx-7/tnobori/tools/YAP/reference_files/mappingconfig_arabidopsis_mCT.ini				
+human	snm3C	/gale/netapp/home/seq/mapping_config/snm3C-seq-V2.hg38.mapping_config.ini				
+human	snmC	/gale/netapp/home/wtian/scratch2/human_brain_atlas/mapping/prepare_newpipe/mapping_config.snmC-seq2.V2.hg38.ini				
+human	snmCT	/gale/netapp/home/bawang/iN/snmCT-V2.human.mapping_config.ini				
+macaque	snm3C	/gale/netapp/scratch2/hanliu/cemba_snm3C-seq/prepare/snm3C-seq-V2.macaque.mapping_config.ini				
+macaque	snmC	/gale/netapp/home/seq/mapping_config/snmC-seq-V3.macaque.mapping_config.ini				
+marmoset	snm3C	/gale/netapp/scratch2/hanliu/cemba_snm3C-seq/prepare/snm3C-seq-V2.marmoset.mapping_config.ini				
+mouse	snm3C	/gale/netapp/scratch2/hanliu/cemba_snm3C-seq/prepare/snm3C-seq-V2.mouse.mapping_config.ini				
+mouse	snm3C	/gale/netapp/home/manoj/utils/mouse_CBA_J_v1/snmC-seq3-V2.CBA_J_v1_mouse.mapping_config.ini				
+mouse	snmC	/gale/netapp/scratch2/hanliu/cemba_snmC-seq3/prepare/snmC-seq3-V2.mouse.mapping_config.ini				
+mouse	snmCT	/gale/netapp/home/bawang/DVC/snmCT-V2.mouse.mapping_config.ini				
+marchantia	snmCT	/gale/raidix/rdx-7/jwalker/Marchantia_reference/mappingconfig_marchantia_mCT.ini				
